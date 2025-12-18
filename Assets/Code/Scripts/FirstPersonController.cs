@@ -5,8 +5,8 @@ public class FirstPersonController : MonoBehaviour
     public CharacterController controller;
 
     [Header("移動設定")]
-    public float walkSpeed = 5f;
-    public float runSpeed = 10f;
+    public float walkSpeed = 8f;
+    public float runSpeed = 16f;
 
     [Header("跳躍/重力")]
     public float gravity = -9.81f;          // 建議先回到 -9.81 再調
